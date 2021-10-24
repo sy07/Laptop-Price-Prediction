@@ -14,7 +14,7 @@ company = st.selectbox('Brand', df['Company'].unique())
 typ = st.selectbox('Type', df['TypeName'].unique())
 
 #ram
-ram = typ = st.selectbox('RAM(in GB', [2,4,6,8,12,16,24,32,64].unique())
+ram = st.selectbox('RAM(in GB)',[2,4,6,8,12,16,24,32,64])
 
 #weight
 weight = st.number_input('Weight of the Laptop')
